@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  xtd
+//
+//  Created by leimo on 2017/8/10.
+//  Copyright © 2017年 sj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Framework Header
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <ReactiveCocoa.h>
+#import <MJRefresh.h>
+#import <YYKit.h>
+#import <Masonry.h>
+
+//customHeader
+#import "PrefixHeader.pch"
+#import "WebApi.h"
+#import "AppConst.h"
+#import "Macro.h"
+
+//base
+#import "HYBaseModel.h"
+#import "HYBaseNavController.h"
+#import "HYBaseViewController.h"
+#import "HYBaseTableViewCell.h"
+#import "HYBaseCellModel.h"
+#import "HYBaseNetworkModel.h"
+
+#import "UIView+HYCommon.h"
+#import "UITableViewCell+HYCommon.h"
+#import "HYBlankPageView.h"
+#import "JRToast.h"
+#import "ObjcRuntime.h"
+
+#endif /* PrefixHeader_pch */
